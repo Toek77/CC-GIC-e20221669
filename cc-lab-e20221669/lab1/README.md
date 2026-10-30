@@ -30,12 +30,6 @@ After completing the tests and saving the screenshots, I terminated the EC2 inst
 
 ![SSH Connection](images/05-ssh-connection.png)
 
-## Part 1.2 - EC2 Web Solution Challenge
-
-**Status:** Not yet completed
-
-This section will be updated after completing the EC2 challenge.
-
 ## Cleanup
 
 ### Part 1.1 - EC2 Walkthrough
@@ -46,6 +40,34 @@ After completing the tasks and saving Screenshots 01–05, I cleaned up the AWS 
 - Deleted `aws-bootstrap-key-pair`.
 - Deleted `aws-bootstrap-security-group`.
 
-### Part 1.2 - EC2 Challenge
+## Part 1.2 - EC2 Challenge
 
-Status: Not yet completed.
+After completing the challenge and saving Screenshots 06–10, I cleaned up the AWS resources:
+
+- Terminated ec2-challenge-instance.
+
+- Deleted ec2-challenge-key-pair.
+
+- Deleted ec2-challenge-security-group.
+
+### Screenshots
+
+**Screenshot 06 - Challenge Launch**
+
+![Challenge Launch](images/06-challenge-launch.png)
+
+**Screenshot 07 - Security Group**
+
+![Security Group](images/07-challenge-security-group.png)
+
+**Screenshot 08 - Running Instance**
+
+![Running Instance](images/08-challenge-instance.png)
+
+**Screenshot 09 - Apache Installation**
+
+![Apache Installation](images/09-challenge-terminal.png)
+
+**Screenshot 10 - Browser Test**
+
+![Browser Test](images/10-challenge-browser.png)
